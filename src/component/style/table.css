@@ -1,0 +1,142 @@
+.react-table-sf {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 0 4px 24px 0 rgba(34, 41, 47, 0.1);
+}
+
+.react-table-sf .react-table-sf-header {
+    margin: 5px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media only screen and (min-width: 768px) {
+    .react-table-sf .react-table-sf-header {
+        flex-direction: row !important;
+        align-items: center;
+    }
+
+    .react-table-sf .react-table-sf-header .search {
+        margin: 0 !important;
+    }
+
+    .react-table-sf .react-table-sf-header .filter .rowSelect.mx-0 {
+        margin: 0 !important;
+    }
+}
+
+@media only screen and (min-width: 300px) {
+    .react-table-sf .react-table-sf-header {
+        flex-direction: column;
+        align-items: flex-start !important;
+    }
+
+    .react-table-sf .react-table-sf-header .search {
+        margin: 1rem 0px;
+    }
+
+    .react-table-sf .react-table-sf-header .filter .rowSelect.mx-0 {
+        margin: 0 !important;
+    }
+}
+
+.react-table-sf .react-table-sf-header .search .data-search {
+    display: block;
+    width: 100%;
+    padding: 0.521rem 1rem;
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 1.45;
+    background-clip: padding-box;
+    appearance: none;
+    border-radius: 0.357rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    outline: none;
+}
+
+.react-table-sf .react-table-sf-header .search .data-search:focus {
+    border-color: #7367f0 !important;
+}
+
+.react-table-sf .react-table-sf-header .rowShow {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.react-table-sf .react-table-sf-header .deleteIcon {
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    color: #28c76f;
+    background-color: rgba(40, 199, 111, 0.12);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+.react-table-sf .react-table-sf-header .deleteIcon:hover {
+    background-color: rgba(234, 84, 85, 0.12);
+    color: #ea5455;
+}
+
+.react-table-sf .react-table-sf-header .rowSelect {
+
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    padding: 8px 10px;
+    margin: 0px 8px;
+    outline: none;
+    font-size: 1rem;
+    border-radius: 0.358rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
+        box-shadow 0.15s ease-in-out, background 0s, border 0s;
+}
+
+.react-table-sf .table_body {
+    margin-top: 8px;
+}
+
+.react-table-sf table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: left;
+
+}
+
+.react-table-sf table .check_box {
+    width: 15px;
+    height: 15px;
+    border: 1px solid #d8d6de;
+    outline: none;
+    border-radius: 4px;
+    background-color: #fff;
+
+}
+
+.react-table-sf table tr th {
+    font-weight: 400;
+    padding: 10px;
+    font-size: 0.9rem;
+}
+
+.react-table-sf table tr td {
+    font-weight: 300;
+    padding: 10px;
+}
+
+.react-table-sf .table_footer {
+    padding: 1rem 0 .6rem 0;
+}

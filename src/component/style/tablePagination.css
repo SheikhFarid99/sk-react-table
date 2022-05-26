@@ -1,0 +1,27 @@
+.table-pagination {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.table-pagination ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.table-pagination ul li {
+    list-style-type: none;
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 0.2rem;
+}
+
+.table-pagination ul li.active {
+    transition: all 0.4s;
+}

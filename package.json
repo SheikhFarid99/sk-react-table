@@ -1,0 +1,32 @@
+{
+  "name": "sk-react-table",
+  "version": "0.0.2",
+  "description": "React table component",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "npx babel src --out-dir dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SheikhFarid99/sk-react-table.git"
+  },
+  "keywords": [
+    "react",
+    "react-table"
+  ],
+  "author": "Sheikh Farid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SheikhFarid99/sk-react-table/issues"
+  },
+  "homepage": "https://github.com/SheikhFarid99/sk-react-table#readme",
+  "dependencies": {
+    "react-icons": "^4.3.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.18.0",
+    "@babel/preset-env": "^7.18.0",
+    "@babel/preset-react": "^7.17.12"
+  }
+}
